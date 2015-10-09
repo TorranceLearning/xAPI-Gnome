@@ -8,14 +8,10 @@ $(function () {
 
 	var tincan = new TinCan({
 		recordStores: [{
-			// Dave Smith's SCORM Cloud account
-			//			endpoint: "https://cloud.scorm.com/tc/3GBY5QUCKC/sandbox/",
-			//			auth: "Basic eHlRZURpZG8wYXBWbm9JUnRZczpoM3F1NzJaaXRsMU5wdGpqd21J",
-			//			allowFail: false
-			//		},{
+
 			// TorranceLearning SCORM Cloud account
-			endpoint: "https://cloud.scorm.com/tc/58WJPIFQVJ/sandbox/",
-			auth: "Basic NThXSlBJRlFWSjpNQk56NnF3c0tNWFQ5aTFiVFBnaE9EcGwxRzRHTmNpS3p1MFhxakZN",
+			endpoint: "ENTER ENDPOINT HERE",
+			auth: "ENTER BASIC AUTH HERE",
 			allowFail: false
 		}],
 		context: {
